@@ -1,15 +1,13 @@
-# Randomcolor
+# RandomColor
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/randomcolor`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+RandomColor is a Ruby port of David Merfield's Random Color JS library (https://github.com/davidmerfield/randomColor). All options are the same as the JS library and the same format.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'randomcolor'
+gem 'random_color'
 ```
 
 And then execute:
@@ -18,11 +16,20 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install randomcolor
+    $ gem install random_color
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+g = ::RandomColor::Generator.new
+g.generate
+```
+
+If you need to pass in any options:
+
+```ruby
+g.generate(hue: 'red', count: 10)
+```
 
 ## Development
 
@@ -32,7 +39,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/randomcolor.
+Bug reports and pull requests are welcome on GitHub at https://github.com/khash/random_color.
 
 
 ## License
