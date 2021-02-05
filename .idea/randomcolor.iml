@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="ModuleRunConfigurationManager">
+    <shared />
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../random_color">
+      <sourceFolder url="file://$MODULE_DIR$/../random_color/features" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../random_color/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../random_color/test" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.17.2, rbenv: 2.6.5) [gem]" level="application" />
+  </component>
+</module>
